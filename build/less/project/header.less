@@ -1,0 +1,81 @@
+.header {
+	background: #ddd;
+	&-lvl-1 {
+		background: #f1f1f1;
+		&>nav {
+			display: flex;
+			align-items: stretch;
+		}
+	}
+	.navbar-toggle {
+		margin-top: 15px;
+		margin-bottom: 15px;
+		
+
+	}
+	.navbar-collapse {
+		width: 100%;
+	}
+	.navbar-header {
+		float: none;
+		img {
+			width: 100%;
+		}
+	}
+	.navbar {
+		min-height: auto;
+	}
+	.navbar-brand {
+		display: block;
+		height: auto;
+	}
+	.navbar-default {
+		
+		background: 0 0;
+		margin-bottom: 0;
+		border: none;
+		border-radius: 0;
+	}
+	.nav.navbar-nav {
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+		&:after,&:before {
+			content: none;
+		}
+	}
+	form {
+		width: 300px;
+		margin-left: -55px;
+		p {
+			margin-bottom: 0;
+		}
+		button {
+			border-left: none;
+			vertical-align: top;
+		}
+	}
+	.input-group-addon {
+		border: none;
+		background: none;
+		border-radius: 0;
+		padding: 0;
+		line-height: 34px;
+		&:first-child {
+			padding-right: 20px;
+		}
+	}
+	.my-flex {
+		height: 100%;
+		padding: 15px 0;
+		&>div:nth-child(1) {
+			width: 100%;
+			padding-top: 20px;
+			align-self: flex-end;
+			display: flex;
+		}
+		&>div:nth-child(2) {
+			
+		}
+	}
+}
